@@ -6,6 +6,8 @@ React aplikacija za upravljanje kandidatima, razvijena kao deo HR platforme.
 - React
 - Vite
 - Tailwindcss
+- React icons
+- Toastify
 
 ## Pokretanje
 1. Kloniraj repozitorijum
