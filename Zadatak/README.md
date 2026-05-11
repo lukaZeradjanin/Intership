@@ -20,7 +20,7 @@ REST API za upravljanje kandidatima i njihovim veštinama, razvijen u C# .NET 8.
 Odlučio sam da uvedem service sloj kao posrednika između kontrolera i baze podataka.
 Kontroler prima HTTP zahtev i vraća odgovor (200, 404, 400...), servis sadrži poslovnu
 logiku kao što su provera duplikata emaila, validacija skill ID-jeva i pretraga,
-a DbContext se bavi isključivo pristupom bazi.
+a DbContext se bavi isključivo pristupom bazi..
 
 Za unit testove koristio sam xUnit i in-memory bazu kako testovi ne bi zavisili od
 stvarne baze. Testirao sam AddCandidate — da vraća null kada kandidat sa istim emailom
